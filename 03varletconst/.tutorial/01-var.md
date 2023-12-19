@@ -9,12 +9,12 @@ In javascript, there are three keywords that are used to declare variables: `var
 # var
 The `var` keyword is used to declare variables in JavaScript. Here's an example:
 ```js
-var name = "Harry";
-console.log(name); //output: Harry
+var name = "Aman";
+console.log(name); //output: Aman
 ```
 we can also reassign the value of a variable declared using the `var` keyword:
 ```js
-var name = "Harry";
+var name = "Aman";
 name = "Ron";
 console.log(name); //output: Ron
 ```
@@ -24,7 +24,7 @@ Note: Block scope will be discussed in the upcoming videos. For now, just rememb
 
 Here's an example:
 ```js
-var name = "Harry";
+var name = "Aman";
 {
     var name = "Ron";
     console.log(name); //output: Ron
@@ -40,12 +40,12 @@ Here's an example:
 ```js
 let a = 29
 
-let b = " Harry";
+let b = " Aman";
 {
 let b = "this";
 console.log(b); //output: this
 }
-console.log(b); //output: Harry
+console.log(b); //output: Aman
 ```
 
 # const
@@ -53,7 +53,7 @@ The `const` keyword is used to declare variables in JavaScript and is used when 
 
 Here's an example:
 ```js
-const name = " Harry";
+const name = " Aman";
 name = "this";
 console.log(name); //output: Uncaught TypeError: Assignment to constant variable.
 ```
@@ -78,41 +78,41 @@ Now we know everything about the variables in JavaScript. Let's look at some bes
 
 1. Use descriptive and meaningful variable names: Choose variable names that clearly describe the value they hold. This makes your code easier to read and understand.
 ```js
-const a = "Harry"; //bad
-const name = "Harry"; //good
+const a = "Aman"; //bad
+const name = "Aman"; //good
 ```
 2. Use camelCase to name your variables. This makes your code easier to read and understand.
 ```js
-const myName = "Harry"; //good
-const myname = "Harry"; //bad
+const myName = "Aman"; //good
+const myname = "Aman"; //bad
 ```
 3. Use const by default and only use let if you need to reassign the variable. Avoid using var.
 ```js
-const name = "Harry"; //good
+const name = "Aman"; //good
 let temporary = 29; //good
-var name = "Harry"; //bad
+var name = "Aman"; //bad
 ```
 4. Declare variables at the top of their scope: To make your code more readable, it's best to declare variables at the top of their scope. This makes it easier to see what variables are in scope and what values they hold
 ```js
 //good:
 {
-    const name = "Harry";
+    const name = "Aman";
     const hobby = "programming";
 
-    console.log("My name is " + name + " and I love " + hobby); // output: My name is Harry and I love programming
+    console.log("My name is " + name + " and I love " + hobby); // output: My name is Aman and I love programming
 }
 //bad
 {
     console.log("My name is " + name + " and I love " + hobby); // output: My name is undefined and I love undefined
-    const name = "Harry";
+    const name = "Aman";
     const hobby = "programming";
 }
 ```
 5. Use const whenever possible: If you know that a variable will not change, use const to declare it. This helps to prevent bugs in your code that could occur if you accidentally reassign a value to a variable that should not change.
 ```js
-const name = "Harry"; //good
-let name = "Harry"; //fine but const is better because we know that the value of name will not change
-var name = "Harry"; //bad
+const name = "Aman"; //good
+let name = "Aman"; //fine but const is better because we know that the value of name will not change
+var name = "Aman"; //bad
 ```
 
 # Conclusion

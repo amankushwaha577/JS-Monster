@@ -7,9 +7,9 @@ Create a variable of type string and try to add a number to it.
 <details><summary>Answer</summary> 
 
 ```javascript
-let name = "Harry";
+let name = "Aman";
 let age = 29;
-console.log(name + age); // "Harry29"
+console.log(name + age); // "Aman29"
 ```
 In JavaScript, **concatenation** is the process of combining two or more strings into a single string. When you use the + operator with a string and a number, the number is automatically converted to a string and then concatenated with the original string. We'll cover more about string concatenation in the future.
 </details> </br>
@@ -38,7 +38,7 @@ Create a constant object in JavaScript and then try to change its value to anoth
 
 ```javascript
 const biodata = { 
-    name: "Harry",
+    name: "Aman",
     age: 30 
 };
 biodata = 29; // TypeError: Assignment to constant variable.
@@ -53,7 +53,7 @@ Try to add a new key to the previous const object.
 
 ```javascript
 const biodata = { 
-    name: "Harry", 
+    name: "Aman", 
     age: 30 
     };
 biodata.address = "123 Main St";

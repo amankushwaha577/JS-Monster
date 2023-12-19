@@ -19,7 +19,7 @@ const getTodo = async (id) => {
 
 const mainFunc = async () => {
         let todo = {
-                title: 'Harry2',
+                title: 'Aman2',
                 body: 'bhai2',
                 userId: 1100,
         }

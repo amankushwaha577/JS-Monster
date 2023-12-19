@@ -1,4 +1,4 @@
-let name = "Harry"
+let name = "Aman"
 // console.log(name.length)
 console.log(name[0])
 console.log(name[1])

@@ -4,7 +4,7 @@
 //     // displayName() is the inner function, a closure
 //     console.log(name); // use variable declared in the parent function
 //   }
-//   name = "Harry"
+//   name = "Aman"
 //   return displayName;
 // }
 // let c = init();

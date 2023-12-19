@@ -1,5 +1,5 @@
 let a = {
-  name2: "Harry",
+  name2: "Aman",
   language: "JavaScript",
   run: () => {
     alert("self run")

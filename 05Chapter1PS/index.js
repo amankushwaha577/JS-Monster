@@ -1,5 +1,5 @@
 // Chapter 1 - Q1
-let a = "Harry"
+let a = "Aman"
 let b = 6
 console.log(a + b)
 
@@ -8,7 +8,7 @@ console.log(typeof (a+b))
 
 // Chapter 1 - Q3
 const a1 = {
-  name: "Harry",
+  name: "Aman",
   section: 1,
   isPrincipal: false
 }

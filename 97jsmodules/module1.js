@@ -1,5 +1,5 @@
 const hello = ()=>{
-    console.log("Hello Harry")
+    console.log("Hello Aman")
 }
 
 const ahello = (name)=>{

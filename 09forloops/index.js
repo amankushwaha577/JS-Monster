@@ -13,7 +13,7 @@ console.log("Sum of first " + n + " natural numbers is " + sum)
 
 /*
 let obj = {
-  harry: 90,
+  Aman: 90,
   shubh: 45,
   shivika: 56,
   ritika: 57,
@@ -26,7 +26,7 @@ for (let a in obj) {
 }
 
 // For of loop
-for (let b of "Harry") {
+for (let b of "Aman") {
   console.log(b)
 }
 */

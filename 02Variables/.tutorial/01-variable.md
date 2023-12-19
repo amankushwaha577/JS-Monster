@@ -45,35 +45,35 @@ Variables are used to store data. They are like containers that hold data.Just l
 Variables are declared using the `var`, `let` or `const` keyword (we will discuss this in next lecture). The syntax for declaring a variable is as follows:
 
 ```js
-var name = "Harry";
+var name = "Aman";
 ```
 
-Here, `name` is the name of the variable and `"Harry"` is the value that is stored in the variable. The value can be of any type. It can be a string, a number, a boolean, an array, an object, etc. Don't worry if you don't understand what these terms mean. We will cover them in the upcoming lectures.
+Here, `name` is the name of the variable and `"Aman"` is the value that is stored in the variable. The value can be of any type. It can be a string, a number, a boolean, an array, an object, etc. Don't worry if you don't understand what these terms mean. We will cover them in the upcoming lectures.
 
 Now that we know what variables are, let's discuss some rules for naming variables.
 
 ## Rules for Naming Variables
 1. Variable names cannot start with a number.
 ```js
-var 1name = "Harry"; // will throw an error because of the 1 at the start
+var 1name = "Aman"; // will throw an error because of the 1 at the start
 ```
 2. Variable names cannot contain spaces.
 ```js
-var my name = "Harry"; // will throw an error because of the space
+var my name = "Aman"; // will throw an error because of the space
 ```
 3. Variable names cannot contain special characters like `!`, `@`, `#`, `$`, `%`, `^`, `&`, `*`, `(`, `)`, `-`, `+`, `=`, `[`, `]`, `{`, `}`, `|`, `\`, `:`, `;`, `<`, `>`, `,`, `.`, `/`, `?`, `~`.
 ```js
-var my-name = "Harry"; // will throw an error because of the `-` character
+var my-name = "Aman"; // will throw an error because of the `-` character
 ```
 4. Variable names cannot be a reserved keyword. Reserved keywords are the keywords that are already used by the language. For example, `var`, `let`, `const`, `if`, `else`, `for`, `while`, `function`, `return`, etc.
 ```js
-var var = "Harry"; // will throw an error because var is a reserved keyword
+var var = "Aman"; // will throw an error because var is a reserved keyword
 ```
 5. Variable names are case sensitive. This means that `name` and `Name` are two different variables.
 ```js
-var name = "Harry";
+var name = "Aman";
 var Name = "Ron";
-console.log(name); // will print "Harry"
+console.log(name); // will print "Aman"
 console.log(Name); // will print "Ron"
 ```
 

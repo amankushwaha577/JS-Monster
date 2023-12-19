@@ -54,7 +54,7 @@ This will log a NamedNodeMap object of all attributes of the "first" div element
 
 In HTML5, we can also create custom attributes. However, to avoid naming conflicts with future updates of HTML or JavaScript, it is recommended to prefix custom attributes with "data-". For example:
 ```html
-<div id="first" class="hey" data-game="mario" data-player="Harry">
+<div id="first" class="hey" data-game="mario" data-player="Aman">
     Hey, I am the first div
 </div>
 ```

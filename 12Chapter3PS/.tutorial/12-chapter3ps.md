@@ -7,7 +7,7 @@ object could be like this:
 ```js
  {
   coco: 80,
-  harry: 98,
+  Aman: 98,
   rohan: 75
  }
 ```
@@ -16,7 +16,7 @@ object could be like this:
 ```javascript
 let marks = {
   coco: 80,
-  harry: 98,
+  Aman: 98,
   rohan: 75
 }
 
@@ -30,7 +30,7 @@ The first line creates an object called "marks" that contains three key-value pa
 
 The second line starts a `for` loop that will iterate through each of the keys in the "marks" object.
 
-The `Object.keys()` method is used to get an array of all the keys in the "marks" `object. Object.keys(marks)` will return an array containing ["coco", "harry", "rohan"]. The `.length` property is then used to get the number of items in this array (which is 3 in this case).
+The `Object.keys()` method is used to get an array of all the keys in the "marks" `object. Object.keys(marks)` will return an array containing ["coco", "Aman", "rohan"]. The `.length` property is then used to get the number of items in this array (which is 3 in this case).
 
 The `for` loop runs three times (once for each student) because of the `Object.keys(marks).length` condition in the loop.
 
@@ -53,7 +53,7 @@ Write a program in Q1 using for in loop:
 ```javascript
 let marks = {
   coco: 80,
-  harry: 98,
+  Aman: 98,
   rohan: 75
 }
 

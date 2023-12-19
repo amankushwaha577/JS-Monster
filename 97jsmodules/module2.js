@@ -1,15 +1,15 @@
 // ES6 Modules
 export const hello = ()=>{
-    console.log("Hello Harry")
+    console.log("Hello Aman")
 }
 
 export const ahello = (name)=>{
     console.log("Hello " + name)
 }
 
-const harry = ()=>{
-    console.log("Hello " + "Harry")
+const Aman = ()=>{
+    console.log("Hello " + "Aman")
 }
 
-export default harry;
+export default Aman;
  

@@ -15,7 +15,7 @@ let nullVar = null;
 let numVar = 29;
 let boolVar = true;
 let bigIntVar = BigInt("567");
-let strVar = "harry";
+let strVar = "Aman";
 let symbolVar = Symbol("I'm a nice symbol");
 let undefinedVar = undefined;
 ```
@@ -40,7 +40,7 @@ Other than the 7 primitive data types, the non-primitive data type in JavaScript
 
 ```js
 const bioData = {
-	name: "Harry",
+	name: "Aman",
 	age: 29,
 	likesJS: true,
 	secret: undefined,
@@ -49,7 +49,7 @@ const bioData = {
 We can access an object's values in two ways: by using square brackets [] or by using dot notation . For example:
 
 ```js
-console.log(bioData["name"]); // Output: Harry
+console.log(bioData["name"]); // Output: Aman
 console.log(bioData.age); // Output: 29
 console.log(bioData["pet"]); // Output: undefined
 ```
@@ -61,7 +61,7 @@ Remember that variables are like containers, and data types define what type of 
 Another key point to remember is that objects are used to map keys to values and can be accessed using square brackets [] or dot notation .
 
 ```js
-const harryMarks = {
+const AmanMarks = {
 	english: 100,
 	maths: 80,
 	chemistry: 40,

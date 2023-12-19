@@ -22,7 +22,7 @@ console.log(str.includes("Hello")); // true
 console.log(str.startsWith("Hello")); // true
 console.log(str.endsWith("World")); // true
 
-console.log(str.includes("harry")); // false
+console.log(str.includes("Aman")); // false
 console.log(str.startsWith("new")); // false
 console.log(str.endsWith("new")); // false
 ```

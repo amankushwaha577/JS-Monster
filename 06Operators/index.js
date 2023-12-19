@@ -1,5 +1,5 @@
 // 77;
-// "Harry bhai"
+// "Aman bhai"
 // false
 console.log("Operators in Js")
 // Arithmetic Operators 
@@ -49,4 +49,4 @@ console.log(!true)
 // This is a single line comment
 /* This is a sample multiline comment and a tutorial
 from 
-codewithharry */
+codewithAman */

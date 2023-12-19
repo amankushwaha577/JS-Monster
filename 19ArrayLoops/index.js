@@ -10,7 +10,7 @@ num.forEach((element) => {
 })
 
 // Array.from 
-let name = "Harry"
+let name = "Aman"
 let arr = Array.from(name)
 console.log(arr)
 

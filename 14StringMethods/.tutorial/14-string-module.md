@@ -4,7 +4,7 @@ In the last lesson, we discussed what strings are, how to make and use them. Now
 ## String Length
 The `length` property of a string returns the number of characters in the string.
 ```js
-let name = "Harry";
+let name = "Aman";
 console.log(name.length); // Output: 5
 ```
 Note that the `length` property is not a method. It is a property of the string object. You do not need to use parentheses to access it. Here is a table displaying the difference between a method and a property:
@@ -20,14 +20,14 @@ Note that the `length` property is not a method. It is a property of the string 
 The `toUpperCase()` method converts all characters in a string to uppercase, while the `toLowerCase()` method converts all characters to lowercase.
 Note: If a string is already in uppercase or lowercase, these methods do nothing and return the original string.
 ```js
-let name = "Harry";
-console.log(name.toUpperCase()); // Output: HARRY
-console.log(name.toLowerCase()); // Output: harry
+let name = "Aman";
+console.log(name.toUpperCase()); // Output: Aman
+console.log(name.toLowerCase()); // Output: Aman
 ```
 ## slice()
 The `slice()` method returns a section of a string. You can provide two arguments to the method: the starting index and the ending index (not inclusive) of the substring you want to extract.
 ```js
-let name = "Harry";
+let name = "Aman";
 console.log(name.slice(2, 4)); // Output: rr
 console.log(name.slice(1, 3)); // Output: ar
 console.log(name.slice(2)); // Output: rry
@@ -39,7 +39,7 @@ console.log(name.slice(2)); // Output: rry
 ## replace()
 The `replace()` method returns a new string with some or all matches of a pattern replaced by a replacement string.
 ```js
-let name = "Harry";
+let name = "Aman";
 console.log(name.replace("ry", "is")); // Output: Hais
 console.log(name.replace("Ry", "is")); // This will not work because "Ry" is not present in the string
 ```
@@ -48,13 +48,13 @@ Note that `replace()` is case-sensitive.
 ## trim()
 The `trim()` method removes whitespace from both ends of a string.
 ```js
-let spacedName = "       Harry        ";
-console.log(spacedName.trim()); // Output: Harry
+let spacedName = "       Aman        ";
+console.log(spacedName.trim()); // Output: Aman
 ```
 ## indexOf()
 The `indexOf()` method returns the index of the first occurrence of a specified value in a string. This method returns -1 if the value to search for never occurs.
 ```js
-let name = "Harry";
+let name = "Aman";
 console.log(name.indexOf("r")); // Output: 2
 console.log(name.indexOf("R")); // This will give -1 because "R" is not present in the string
 ```
@@ -63,8 +63,8 @@ Note that `indexOf()` is case-sensitive.
 ## Indexing
 You can access individual characters in a string using indexing. In JavaScript, indexing starts at 0.
 ```js
-let name = "Harry";
-console.log(name); // Output: Harry
+let name = "Aman";
+console.log(name); // Output: Aman
 console.log(name[0]); // Output: H
 console.log(name[1]); // Output: a
 console.log(name[2]); // Output: r
@@ -75,9 +75,9 @@ console.log(name[4]); // Output: y
 It's important to remember that all string methods return a new string, leaving the original string unchanged. If you want to make changes to a string, you'll need to store the result of the method call in a new variable.
 
 ```js
-let name = "Harry";
+let name = "Aman";
 let upperCaseName = name.toUpperCase();
-console.log(upperCaseName); // Output: HARRY
-console.log(name); // Output: Harry (original string is unchanged)
+console.log(upperCaseName); // Output: Aman
+console.log(name); // Output: Aman (original string is unchanged)
 ```
 These are some of the most important string methods, but there are many others that you can learn and use in your code. Remember that you don't have to memorize all of these methods; instead, focus on understanding how they work and practice using them in your code.

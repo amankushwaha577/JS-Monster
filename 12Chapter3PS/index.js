@@ -1,5 +1,5 @@
 let marks = {
-  harry: 90,
+  Aman: 90,
   shubham: 9,
   lovish: 56,
   Monika: 4

@@ -21,7 +21,7 @@ function sum(v1, v2, v3) {
 console.log(sum(...arr1))
 
 let obj2 = {
-  name: "Harry",
+  name: "Aman",
   company: "Company xyz",
   address: "XYZ"
 }
