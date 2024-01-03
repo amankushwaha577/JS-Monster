@@ -16,4 +16,5 @@ const item = {
   "Lovish": 67,
   "Rohan": undefined
 }
+console.log(item["Shubh"])
 console.log(item.Shubh)
