@@ -4,7 +4,7 @@ let b = 6
 console.log(a + b)
 
 // Chapter 1 - Q2
-console.log(typeof (a+b))
+console.log(typeof a+b)
 
 // Chapter 1 - Q3
 const a1 = {
