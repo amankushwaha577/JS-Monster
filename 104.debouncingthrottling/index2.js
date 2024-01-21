@@ -3,7 +3,7 @@ const input = document.querySelector("input");
 let isThrottled = false;
 
 const throttle = (callback, delay) => {
-  if (!isThrottled) {
+  if (isThrottled != true) {
     isThrottled = true;
     setTimeout(() => {
       callback();
