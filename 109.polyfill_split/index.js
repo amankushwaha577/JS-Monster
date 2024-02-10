@@ -3,7 +3,6 @@ const split = (string, delimiter) => {
 
     const res = [];
     let start = 0;
-    let index = -1;
 
     for (let i = 0; i < string.length; i++) {
         if (string.substring(i, i + delimiter.length) === delimiter) {
