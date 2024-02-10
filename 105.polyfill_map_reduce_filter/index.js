@@ -1,3 +1,23 @@
+/******** foreach =  START WRITING CODE HERE *************/
+Array.prototype.myforEach = function(callback, thisArg) {
+  if (typeof callback !== 'function') {
+    throw new TypeError('Callback must be a function');
+  }
+
+  const array = this;
+  const length = array.length;
+
+  for (let i = 0; i < length; i++) {
+      callback.call(thisArg, array[i], i, array);
+  }
+};
+
+const numberss = [1, 2, 3, 4, 5];
+numberss.myforEach(num => console.log(num * 2));
+
+/****************** CODE EDITING BLOCK ENDS HERE *************/
+
+
 /******** MAP =  START WRITING CODE HERE *************/
 
 Array.prototype.mymap = function (callback, thisArg) {
@@ -10,9 +30,7 @@ Array.prototype.mymap = function (callback, thisArg) {
     const mappedArray = new Array(length);
   
     for (let i = 0; i < length; i++) {
-      if (i in array) {
         mappedArray[i] = callback.call(thisArg, array[i], i, array);
-      }
     }
   
     return mappedArray;
@@ -69,10 +87,8 @@ Array.prototype.myreduce = function (callback, initialValue) {
     let startIndex = initialValue !== undefined ? 0 : 1;
   
     for (let i = startIndex; i < length; i++) {
-      if (i in array) {
         accumulator = callback(accumulator, array[i], i, array);
       }
-    }
   
     return accumulator;
   };
